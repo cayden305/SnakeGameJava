@@ -7,7 +7,8 @@ public class snake {
     public static int up = 2;
     public static int down = 4;
     private int length;
-    private static Color snakeColor = Color.white;
+    
+    
     public snake(){
         length = 1;
         direction = right;
