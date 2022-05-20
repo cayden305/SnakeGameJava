@@ -183,8 +183,8 @@ public class game {
                     controls();
                     moveSnake();
                     colorStuff();
+                    // \/ alternate movement system (buggy)
                     //gametick++;
-
                     //if (gametick % 10 == 0){
                     //    moveSnake();
                     //    colorStuff();
