@@ -9,7 +9,6 @@ public class game {
     private int height;
     private boolean gameStarted = false;
     private snake player;
-    private food food;
     private int[][] grid;
     private int gridsize;
     private boolean gameover = false;
@@ -17,7 +16,7 @@ public class game {
 
 
     public game(int width, int height, Color background, int gridsize) {
-        window = new Draw("Snake Game");
+        window = new Draw();
         this.width = width;
         this.height = height;
         this.background = background;
